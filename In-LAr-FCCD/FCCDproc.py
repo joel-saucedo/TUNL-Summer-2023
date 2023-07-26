@@ -185,7 +185,7 @@ if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 
 # FCCD values to loop through
-FCCD_values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+FCCD_values = [0.00, 0.25, 0.50, 0.75, 1.00]
 
 # Create an HDF5 file to store the processed data
 output_filepath = os.path.join(output_folder, 'processed_data.hdf5')
